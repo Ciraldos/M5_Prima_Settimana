@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Esercitazione_Settimana_W7")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79b5b71d8b4fd7665a6d2187283274448d1be194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b61df2c659dba01437a03df4d7321542dde83679")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esercitazione_Settimana_W7")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esercitazione_Settimana_W7")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

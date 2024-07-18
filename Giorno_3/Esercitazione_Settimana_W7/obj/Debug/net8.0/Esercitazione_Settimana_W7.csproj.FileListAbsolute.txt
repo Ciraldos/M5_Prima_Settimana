@@ -501,3 +501,4 @@ C:\Users\andre\Desktop\Epicode1\M5\M5_Prima_Settimana\Giorno_3\Esercitazione_Set
 C:\Users\andre\Desktop\Epicode1\M5\M5_Prima_Settimana\Giorno_3\Esercitazione_Settimana_W7\obj\Debug\net8.0\Esercitazione_Settimana_W7.pdb
 C:\Users\andre\Desktop\Epicode1\M5\M5_Prima_Settimana\Giorno_3\Esercitazione_Settimana_W7\obj\Debug\net8.0\Esercitazione_Settimana_W7.genruntimeconfig.cache
 C:\Users\andre\Desktop\Epicode1\M5\M5_Prima_Settimana\Giorno_3\Esercitazione_Settimana_W7\obj\Debug\net8.0\ref\Esercitazione_Settimana_W7.dll
+C:\Users\andre\Desktop\Epicode1\M5\M5_Prima_Settimana\Giorno_3\Esercitazione_Settimana_W7\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll

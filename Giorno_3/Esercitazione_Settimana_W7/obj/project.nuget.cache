@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LROuhsouwtI=",
+  "dgSpecHash": "GUNVqOuAw5w=",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_3\\Esercitazione_Settimana_W7\\Esercitazione_Settimana_W7.csproj",
   "expectedPackageFiles": [
@@ -152,6 +152,7 @@
     "C:\\Users\\andre\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.net.mail.abstractions\\1.1.21\\system.net.mail.abstractions.1.1.21.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.reflection.metadataloadcontext\\7.0.0\\system.reflection.metadataloadcontext.7.0.0.nupkg.sha512",
