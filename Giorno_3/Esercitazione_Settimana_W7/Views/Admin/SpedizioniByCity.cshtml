@@ -1,0 +1,19 @@
+﻿@model IEnumerable<SpedizioniCitta>
+
+<table>
+    <thead>
+        <tr>
+            <th>Città Destinataria</th>
+            <th>Numero Spedizioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cityCount in Model)
+        {
+            <tr>
+                <td>@cityCount.CityName</td>
+                <td>@cityCount.TotalShipments</td>
+            </tr>
+        }
+    </tbody>
+</table>

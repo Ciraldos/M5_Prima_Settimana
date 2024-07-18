@@ -1,0 +1,15 @@
+﻿@using System.Security.Claims
+@{
+    ViewData["Title"] = "Home Page";
+    var currentUser = (User.Identity?.IsAuthenticated ?? false) ? User.Identity.Name : "Anonimo";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @currentUser </h1>
+    <ul>
+        @foreach (var c in User.Claims.Where(cl => cl.Type == ClaimTypes.Role))
+        {
+            <li>@c.Value</li>
+        }
+    </ul>
+</div>

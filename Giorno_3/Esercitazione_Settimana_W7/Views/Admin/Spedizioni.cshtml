@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Esercitazione_Settimana_W7.Models.Spedizioni>
+
+@{
+    ViewData["Title"] = "Spedizioni";
+}
+
+<h1>Spedizioni</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdSpedizione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FK_ClienteAzienda)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FK_ClientePrivato)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataSpedizione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Peso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CittaDestinatario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Indirizzo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeDestinatario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CostoSpedizione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataConsegnaPrev)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSpedizione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FK_ClienteAzienda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FK_ClientePrivato)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataSpedizione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CittaDestinatario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Indirizzo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeDestinatario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CostoSpedizione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataConsegnaPrev)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
