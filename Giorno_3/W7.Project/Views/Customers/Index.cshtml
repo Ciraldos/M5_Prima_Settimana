@@ -1,0 +1,13 @@
+﻿@using W7.Project.DataLayer.Entities
+@model IEnumerable<CustomerEntity>
+
+<h1>Elenco Clienti</h1>
+
+<div>
+    <a asp-action="RegisterCompany" class="btn btn-info">Nuova Azienda</a>
+    <a asp-action="RegisterPerson" class="btn btn-info">Nuovo Privato</a>
+</div>
+
+@foreach (var c in Model) {
+    @Html.DisplayFor(i => c, c.GetType().Name)
+}
