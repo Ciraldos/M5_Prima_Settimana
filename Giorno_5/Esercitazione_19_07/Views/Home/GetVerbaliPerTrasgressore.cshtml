@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Esercitazione_19_07.Models.VerbaleTrasgressore>
+
+@{
+    ViewData["Title"] = "GetVerbaliPerTrasgressore";
+}
+
+<h1>GetVerbaliPerTrasgressore</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Trasgressore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotaleVerbali)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trasgressore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotaleVerbali)
+            </td>
+            
+        </tr>
+}
+    </tbody>
+</table>

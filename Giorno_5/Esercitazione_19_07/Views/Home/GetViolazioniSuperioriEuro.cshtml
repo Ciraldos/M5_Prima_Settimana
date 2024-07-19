@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Esercitazione_19_07.Models.VerbaleAnagrafico>
+
+@{
+    ViewData["Title"] = "GetViolazioniSuperioriEuro";
+}
+
+<h1>Violazioni il cui importo supera i 400 ruto</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                <p>Indirizzo Violazione</p>
+            </th>
+            <th>
+                <p>Nominativo Agente</p>
+            </th>
+            <th>
+                <p>Data Violazione</p>
+            </th>
+            <th>
+                <p>Data Trascrizione Verbale</p>
+            </th>
+            <th>
+                <p>Importo</p>
+            </th>
+            <th>
+                <p>Decurtamento Punti</p>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.V.IndirizzoViolazione)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.V.Nominativo_Agente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.V.DataViolazione)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.V.DataTrascrizioneVerbale)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.V.Importo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.V.DecurtamentoPunti)
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
