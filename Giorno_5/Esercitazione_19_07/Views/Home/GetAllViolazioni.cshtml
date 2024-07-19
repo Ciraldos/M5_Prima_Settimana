@@ -1,19 +1,16 @@
 ﻿@model IEnumerable<Esercitazione_19_07.Models.Violazione>
 
 @{
-    ViewData["Title"] = "GetAllViolazioni";
+    ViewData["Title"] = "Elenco delle violazioni";
 }
 
-<h1>GetAllViolazioni</h1>
+<h1>Elenco delle violazioni</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdViolazione)
+                Identificativo Violazione
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Descrizione)

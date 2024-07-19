@@ -1,8 +1,47 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="/css/index.css" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <h1 class="text-center">Benvenuto nella pagina Index</h1>
+    <p class="text-center">Scegli una delle seguenti opzioni:</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pagina 1</h5>
+                    <p class="card-text">Visualizza il totale dei verbali trascritti raggruppati per trasgressore</p>
+                    <a asp-controller="Home" asp-action="GetVerbaliPerTrasgressore" class="btn btn-primary btn-block">Clicca Qui!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pagina 2</h5>
+                    <p class="card-text">Visualizza il totale dei punti decurtati raggruppati per trasgressore.</p>
+                    <a asp-controller="Home" asp-action="GetPuntiPerTrasgressore" class="btn btn-primary btn-block">Clicca Qui!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pagina 3</h5>
+                    <p class="card-text">Visualizza le violazioni che superano i 10 punti di decurtamento</p>
+                    <a asp-controller="Home" asp-action="GetViolazioniSuperioriDieci" class="btn btn-primary btn-block">Clicca Qui!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Pagina 4</h5>
+                    <p class="card-text">Visualizza le violazioni il cui importo è maggiore di 400 euro</p>
+                    <a asp-controller="Home" asp-action="GetViolazioniSuperioriEuro" class="btn btn-primary btn-block">Clicca Qui!</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

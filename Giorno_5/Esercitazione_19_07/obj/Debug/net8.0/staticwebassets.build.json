@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4Z22ugrqt5gMRg9ZhBN6C7Bc3f5+WRJnZ3ABjEJgqEM=",
+  "Hash": "dx3BkPD+b/vl9zN3XyijYkvv4hosiXxtOxVEiJIZtWw=",
   "Source": "Esercitazione_19_07",
   "BasePath": "_content/Esercitazione_19_07",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Esercitazione_19_07.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\css\\index.css",
+      "SourceId": "Esercitazione_19_07",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\",
+      "BasePath": "_content/Esercitazione_19_07",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\css\\site.css",

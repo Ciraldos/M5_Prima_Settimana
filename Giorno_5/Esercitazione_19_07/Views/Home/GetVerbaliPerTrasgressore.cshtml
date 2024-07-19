@@ -1,14 +1,11 @@
 ﻿@model IEnumerable<Esercitazione_19_07.Models.VerbaleTrasgressore>
 
 @{
-    ViewData["Title"] = "GetVerbaliPerTrasgressore";
+    ViewData["Title"] = "Elenco verbali per trasgressore";
 }
 
-<h1>GetVerbaliPerTrasgressore</h1>
+<h1>Elenco verbali per trasgressore</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -16,7 +13,7 @@
                 @Html.DisplayNameFor(model => model.Trasgressore)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TotaleVerbali)
+                Totale Verbali Per Trasgressore
             </th>
             <th></th>
         </tr>

@@ -34,7 +34,7 @@ namespace Esercitazione_19_07.Controllers
         public IActionResult CreateNewAnagrafica(Anagrafica anagrafica)
         {
             _anagraficaService.CreateAnagrafica(anagrafica);
-            return View(anagrafica);
+            return RedirectToAction("Index");
         }
 
         public IActionResult GetAllViolazioni()
