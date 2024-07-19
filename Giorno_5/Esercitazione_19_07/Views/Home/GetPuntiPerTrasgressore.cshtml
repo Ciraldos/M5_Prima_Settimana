@@ -4,32 +4,35 @@
     ViewData["Title"] = "Punti Patente Decurtati";
 }
 
-<h1>Punti Decurtati Per Trasgressore</h1>
+<link rel="stylesheet" href="~/css/GetAllViolazioni.css" />
+<div class="container">
+    <div class="table-container">
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Trasgressore)
-            </th>
-            <th>
-                <h1>Punti Decurtati</h1>
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Trasgressore)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TotaleVerbali)
-                </td>
-
-            </tr>
-        }
-    </tbody>
-</table>
+        <h1>Punti Decurtati Per Trasgressore</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Trasgressore)
+                    </th>
+                    <th>
+                        Punti Decurtati
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Trasgressore)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotaleVerbali)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

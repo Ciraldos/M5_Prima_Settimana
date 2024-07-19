@@ -3,32 +3,35 @@
 @{
     ViewData["Title"] = "Elenco verbali per trasgressore";
 }
+<link rel="stylesheet" href="~/css/GetAllViolazioni.css" />
 
-<h1>Elenco verbali per trasgressore</h1>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Trasgressore)
-            </th>
-            <th>
-                Totale Verbali Per Trasgressore
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Trasgressore)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotaleVerbali)
-            </td>
-            
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container">
+    <div class="table-container">
+        <h1>Elenco verbali per trasgressore</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-dark">
+                        @Html.DisplayNameFor(model => model.Trasgressore)
+                    </th>
+                    <th class="text-dark">
+                        Totale Verbali Per Trasgressore
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Trasgressore)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotaleVerbali)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

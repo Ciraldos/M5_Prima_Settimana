@@ -4,31 +4,35 @@
     ViewData["Title"] = "Elenco delle violazioni";
 }
 
-<h1>Elenco delle violazioni</h1>
+<link rel="stylesheet" href="~/css/GetAllViolazioni.css" />
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Identificativo Violazione
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descrizione)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdViolazione)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descrizione)
-            </td>
-            
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container">
+    <div class="table-container">
+        <h1 class="text-black">Elenco delle violazioni</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-black">
+                        Identificativo Violazione
+                    </th>
+                    <th class="text-black">
+                        @Html.DisplayNameFor(model => model.Descrizione)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdViolazione)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descrizione)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

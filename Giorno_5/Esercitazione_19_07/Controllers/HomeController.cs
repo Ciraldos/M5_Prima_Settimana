@@ -51,8 +51,8 @@ namespace Esercitazione_19_07.Controllers
         [HttpPost]
         public IActionResult CreateVerbale(Verbale verbale)
         {
-            var v = _verbaleService.CreateVerbale(verbale);
-            return View(v);
+            _verbaleService.CreateVerbale(verbale);
+            return RedirectToAction("Index");
         }
 
         public IActionResult GetVerbaliPerTrasgressore()

@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\Esercitazione_19_07.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\css\\CreateNewAnagrafica.css",
+      "PackagePath": "staticwebassets\\css\\CreateNewAnagrafica.css"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\css\\CreateVerbale.css",
+      "PackagePath": "staticwebassets\\css\\CreateVerbale.css"
+    },
+    {
+      "Id": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\css\\GetAllViolazioni.css",
+      "PackagePath": "staticwebassets\\css\\GetAllViolazioni.css"
+    },
+    {
       "Id": "C:\\Users\\andre\\Desktop\\Epicode1\\M5\\M5_Prima_Settimana\\Giorno_5\\Esercitazione_19_07\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
